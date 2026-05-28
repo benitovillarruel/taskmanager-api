@@ -1,0 +1,99 @@
+# Comparación de Licencias de Software: MIT vs Apache 2.0 vs GPL
+
+Este documento proporciona una comparación general de tres licencias de software populares: **MIT**, **Apache 2.0** y **GPL**. Está dirigido a desarrolladores y organizaciones que buscan entender las diferencias clave para elegir la licencia adecuada para sus proyectos.
+
+---
+
+## 1. Licencia MIT
+
+**Tipo:** Permisiva / Open Source  
+**Permite:**  
+- Usar, copiar, modificar y distribuir el software libremente.  
+- Incorporar el software en proyectos comerciales o propietarios.  
+
+**Restricciones:**  
+- Se debe incluir el aviso de copyright y la licencia en todas las copias o partes sustanciales del software.  
+
+**Ventajas:**  
+- Muy simple y concisa.  
+- Compatible con la mayoría de las otras licencias.  
+- Ideal para proyectos que buscan máxima adopción.  
+
+**Desventajas:**  
+- No protege contra la apropiación de software; no obliga a compartir mejoras.  
+
+**Resumen:** Permisiva, mínima burocracia, permite uso comercial sin obligación de liberar el código modificado.
+
+---
+
+## 2. Licencia Apache 2.0
+
+**Tipo:** Permisiva con cláusula de patente / Open Source  
+**Permite:**  
+- Usar, modificar y distribuir el software libremente, incluso comercialmente.  
+- Otorga explícitamente derechos de patente a los contribuyentes.  
+
+**Restricciones:**  
+- Incluir el aviso de copyright y la licencia en todas las distribuciones.  
+- Notificar cambios significativos en archivos modificados.  
+
+**Ventajas:**  
+- Protege contra reclamaciones de patentes.  
+- Compatible con la mayoría de las licencias permisivas.  
+- Recomendada para proyectos corporativos o de alto riesgo legal.  
+
+**Desventajas:**  
+- Más compleja que MIT, con más requisitos legales a cumplir.  
+
+**Resumen:** Permisiva con protección de patentes, ideal para empresas y contribuciones abiertas.
+
+---
+
+## 3. Licencia GPL (General Public License, versión 3)
+
+**Tipo:** Copyleft fuerte / Open Source  
+**Permite:**  
+- Usar, modificar y distribuir el software.  
+- Distribuir software derivado bajo la misma licencia GPL.  
+
+**Restricciones:**  
+- Todo software derivado debe mantenerse bajo GPL (obliga a compartir código).  
+- No permite combinar con software propietario sin liberar el código completo.  
+- Incluye cláusulas de compatibilidad de patentes.  
+
+**Ventajas:**  
+- Garantiza que todo el software derivado siga siendo libre.  
+- Protege la libertad del usuario final y la comunidad open source.  
+
+**Desventajas:**  
+- Puede ser incompatible con software propietario o licencias más permisivas.  
+- No siempre es adecuada para proyectos comerciales cerrados.  
+
+**Resumen:** Copyleft fuerte, protege la libertad del software pero puede limitar la adopción en entornos propietarios.
+
+---
+
+## Comparación resumida
+
+| Característica       | MIT                  | Apache 2.0          | GPLv3                 |
+|---------------------|--------------------|-------------------|---------------------|
+| Tipo                 | Permisiva           | Permisiva + Patente | Copyleft fuerte     |
+| Modificaciones       | Permitidas          | Permitidas        | Permitidas, pero bajo GPL |
+| Uso comercial        | Permitido           | Permitido         | Permitido           |
+| Obligación de publicar cambios | No | No                | Sí, todo derivado debe ser GPL |
+| Protección de patentes | No                 | Sí                | Sí                  |
+| Complejidad legal     | Baja                | Media             | Alta                |
+
+---
+
+**Conclusión:**  
+- **MIT:** Ideal para máxima simplicidad y adopción.  
+- **Apache 2.0:** Mejor para proyectos corporativos que necesitan protección de patentes.  
+- **GPLv3:** Mejor para garantizar que las mejoras permanezcan libres y abiertas.
+
+---
+
+**Referencias:**  
+- [MIT License](https://opensource.org/licenses/MIT)  
+- [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)  
+- [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html)
