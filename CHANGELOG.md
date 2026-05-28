@@ -1,10 +1,14 @@
-# CHANGELOG
+# Changelog
 
-## [1.0.0]
+Todos los cambios notables de este proyecto se documentan en este archivo.
+
+## [1.0.0] - 2026-05-28
 
 ### Added
-- Creación de un programa básico en Python para sumar dos números.
-- Implementación de entrada de datos mediante `input()`.
-- Conversión de valores a tipo `float` para permitir números decimales.
-- Cálculo de la suma de los dos números ingresados por el usuario.
-- Mostrar el resultado en pantalla usando `print()`.
+- Función `sumar(a, b)` para sumar dos números.
+- Estructura básica del proyecto:
+  - Carpeta `app/` con módulos principales.
+  - Carpeta `tests/` con tests unitarios para la función `sumar`.
+- Archivo `requirements.txt` con dependencia `pytest`.
+- Documentación básica en `README.md`.
+- Archivo `.gitignore` para ignorar caché y entornos virtuales.
